@@ -119,12 +119,13 @@ class _EditNotePageState extends State<EditNotePage> {
   void codeController() {
     setState(() {
       _codeController = CodeController(
-          text: note.noteText,
-          language: dart,
-          theme: themes,
-          onChange: (p0) {
-            contentFocusNode.requestFocus();
-          });
+        text: note.noteText,
+        language: dart,
+      );
+      // textStyle: atomOneDarkTheme,
+      // onChange: (p0) {
+      //   contentFocusNode.requestFocus();
+      // });
     });
   }
 
