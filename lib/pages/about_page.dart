@@ -122,9 +122,9 @@ class _AboutPageState extends State<AboutPage> {
             InkWell(
               borderRadius: BorderRadius.circular(15.0),
               onTap: () async {
-                if (await canLaunch('https://twitter.com/HammDmob')) {
+                if (await canLaunch('https://www.instagram.com/u.farq')) {
                   await launch(
-                    'https://twitter.com/HammDmob',
+                    'https://www.instagram.com/u.farq',
                     forceSafariVC: false,
                     forceWebView: false,
                   );
@@ -136,8 +136,8 @@ class _AboutPageState extends State<AboutPage> {
                 leading: CircleAvatar(
                   child: Icon(Iconsax.user),
                 ),
-                title: Text('Hamm D Mob'),
-                subtitle: Text('Mobile UI Developer'),
+                title: Text('Umar Faruq Robbany'),
+                subtitle: Text('Mobile Developer'),
               ),
             ),
             // InkWell(
@@ -157,7 +157,7 @@ class _AboutPageState extends State<AboutPage> {
             //     leading: CircleAvatar(
             //       child: Icon(Iconsax.user),
             //     ),
-            //     title: Text('Hammam Hanan'),
+            //     title: Text('Umar Faruq Robbany'),
             //     subtitle: Text('UI Design'),
             //   ),
             // ),
@@ -239,9 +239,9 @@ class _AboutPageState extends State<AboutPage> {
               borderRadius: BorderRadius.circular(15.0),
               onTap: () async {
                 if (await canLaunch(
-                    'https://paypal.me/AhmadHammamMH?country.x=ID&locale.x=id_ID')) {
+                    'https://paypal.me/UmarFaruqRobbany?country.x=ID&locale.x=id_ID')) {
                   await launch(
-                    'https://paypal.me/AhmadHammamMH?country.x=ID&locale.x=id_ID',
+                    'https://paypal.me/UmarFaruqRobbany?country.x=ID&locale.x=id_ID',
                     forceSafariVC: false,
                     forceWebView: false,
                   );

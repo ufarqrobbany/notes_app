@@ -96,7 +96,7 @@ class _IntroductionPageState extends State<IntroductionPage> {
                       padding: const EdgeInsets.all(8.0),
                       child: OutlinedButton(
                         style: OutlinedButton.styleFrom(
-                          primary: Colors.white,
+                          foregroundColor: Colors.white,
                           side: BorderSide(color: Colors.white),
                         ),
                         onPressed: () {
@@ -123,8 +123,8 @@ class _IntroductionPageState extends State<IntroductionPage> {
                     padding: const EdgeInsets.all(8.0),
                     child: ElevatedButton(
                       style: ElevatedButton.styleFrom(
-                        primary: Colors.white,
-                        onPrimary: Colors.black,
+                        foregroundColor: Colors.black,
+                        backgroundColor: Colors.white,
                       ),
                       onPressed: () {
                         navigationForward(_page);
